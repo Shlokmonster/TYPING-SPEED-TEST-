@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(to bottom right, #FACC15, #9333EA, #7E22CE);
+    height: 1000px;
+  
+}
+
+.nav{
+    background-color: transparent;
+    height: 4.5rem;
+    border: 0.1rem solid  rgba(255, 255, 255, 0.2) ;
+    border-radius: 0.5rem;
+
+     background: transparent;
+     box-shadow:inset;
+     color: white;
+     background-color: rgba(255, 255, 255, 0.2);
+
+    
+}
+.navmain{
+    display: flex;
+   
+}
+.item1{
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    font-size: x-large;
+    text-decoration: wavy;
+    color: black;
+    
+   
+}
+
+.item2{
+    margin-left: 45rem;
+    margin-top: 1.8rem;
+    transition: all;
+    cursor: pointer;
+    text-align: center;
+
+}
+.item2:hover{
+    color: black;
+    
+
+}
+.item3{
+    margin-left: 5rem;
+    margin-top: 1.8rem;
+    transition: all;
+    cursor: pointer;
+    text-align: center;
+   
+}
+.item3:hover{
+    color: black;
+}
+.item4{
+    margin-left: 5rem;
+    margin-top: 1.8rem;
+    transition: all;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.item4:hover{
+    color: black;
+}
+.head{
+text-align: center;
+margin-top: 3rem;
+font-size: 40px;
+}
+.hero1{
+text-align: center;
+margin-top: 0.5rem;
+font-size: 20px;
+color:black;
+}
+.main1{
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 32rem;
+    width: 70rem;
+    margin-left: 11rem;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    border-radius: 2rem;
+}
+.nav1{
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    margin-left: 1rem;
+
+    
+}
+.dropdown1{
+    position: relative;
+    display: flex;
+    margin-left: 1rem;
+
+    
+}
+.dropdown-btn {
+    background-color:white;
+    color: black;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.dropdown-btn:hover {
+    background-color:black;
+    color: white;
+    
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+    color: white;
+    min-width: 160px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+.show {
+    display: block;
+}
+#time{
+margin-left: 42rem;
+margin-top: 1.3rem;
+font-size: 21px;
+color: white;
+transition: all;
+}
+#time:hover{
+    color: black;
+}
+#reset{
+    background-color:white;
+    color: black;
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+    transition: all;
+}
+#reset:hover{
+    background-color: black;
+    color: white;
+}
+.line{
+    width: 65rem;
+    height: 0.2rem;
+    background-color:gray;
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+}
+
+.write{
+    margin-left: 2.2rem;
+    height: 200px;
+    width: 1040px;
+    background-color: white;
+    margin-top: 20px;border-radius: 15px;
+}
+#input{
+    height: 40px;
+    width: 1040px;
+    background-color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    text-indent: 20px;
+}
+#input::placeholder{
+text-indent: 20px;
+    color: gray;
+
+}
+.boot{
+    display: flex;
+    margin-left: 2.8rem;
+}
+.item10{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.item11{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.item12{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.item13{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#wmp{
+margin-top: 10px;
+color:#7E22CE;
+font-size: 45px;
+text-align: center;
+}
+#accuracy{
+    margin-top: 10px;
+color:palevioletred;
+font-size: 45px;text-align: center;
+
+}
+#char{
+    margin-top: 10px;
+    color:black;
+    font-size: 45px;
+    text-align: center;
+}
+#error{
+    margin-top: 10px;
+    color:red;
+    font-size: 45px;
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="navmain">
+        <div class="item1">
+            TSPEEDTEST
+        </div>
+        <div class="item2">
+            PRACTICE
+        </div>
+        <div class="item3">
+            LEADERBOARD
+        </div>
+        <div class="item4">
+            PROFILE
+        </div>
+    </div>
+    </div>
+    <div class="hero">
+        <h1 class="head">Typing Speed Test</h1>
+    </div>
+    <div class="hero1">
+        <h3 class="hero2">Measure your typing accuracy and speed</h3>
+    </div>
+    <div class="main1">
+        <div class="nav1">
+            <div class="dropdown">
+                <button id="dropdownBtn" class="dropdown-btn">30sec ⏷</button>
+                <div id="dropdownMenu" class="dropdown-menu">
+                    <a href="#" onclick="selectOption('30 sec ⏷')" id="three">30 seconds</a>
+                    <a href="#" onclick="selectOption('1 minute ⏷')" id="one">1 minute</a>
+                    <a href="#" onclick="selectOption('2 minute ⏷')" id="two">2 minute</a>
+                    <a href="#" onclick="selectOption('5 minute ⏷')" id="five">5 minute</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button id="dropdownBtn" class="dropdown-btn">Medium ⏷</button>
+                <div id="dropdownMenu" class="dropdown-menu">
+                    <a href="#" onclick="selectOption('Easy')">Easy</a>
+                    <a href="#" onclick="selectOption('Medium')">Medium</a>
+                    <a href="#" onclick="selectOption('Hard')">Hard</a>
+                </div>
+            </div>
+            <div class="para">
+                <p id="time">30s</p>
+            </div>
+            <div class="reset">
+                <button id="reset">reset</button>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div class="write" id="write">
+
+        </div>
+        <div class="answer">
+            <input type="text" name="" id="input" placeholder="Start typing here... ">
+            
+        </div>
+        <div class="boot">
+            <div class="item10">
+                <p id="wmp">0</p>
+                <p>WMP</p>
+            </div>
+            <div class="item11">
+                <p id="accuracy">100%</p>
+                <p>Accuracy</p>
+            </div>
+            <div class="item12">
+                <p id="char">0</p>
+                <p>Characters</p>
+            </div>
+            <div class="item13">
+                <p id="error">0</p>
+                <p>Errors</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
